@@ -1,0 +1,28 @@
+{
+  "name": "tic-tac-toe",
+  "version": "0.0.1",
+  "description": "A simple tic-tac-toe game to play in your browser.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nf start -p 3000",
+    "test": "echo \"Error: run npm test in each of the sub folders\" && exit 1",
+    "postinstall": "npm-recursive-install --skip-root"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencawkwell/tic-tac-toe.git"
+  },
+  "keywords": [
+    "tic-tac-toe"
+  ],
+  "author": "Ben Cawkwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bencawkwell/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/bencawkwell/tic-tac-toe#readme",
+  "dependencies": {
+    "foreman": "^2.0.0",
+    "recursive-install": "^1.3.0"
+  }
+}

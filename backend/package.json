@@ -1,0 +1,36 @@
+{
+  "name": "tic-tac-toe-service",
+  "version": "0.0.1",
+  "description": "A simple REST based service for playing tic-tac-toe.",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "make-error": "^1.2.1",
+    "requirefrom": "^0.2.1",
+    "uuid": "^2.0.3"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6",
+    "sinon-chai": "^2.8.0",
+    "validator": "^6.1.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bencawkwell/tic-tac-toe.git"
+  },
+  "keywords": [
+    "tic-tac-toe"
+  ],
+  "author": "Ben Cawkwell",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bencawkwell/tic-tac-toe/issues"
+  },
+  "homepage": "https://github.com/bencawkwell/tic-tac-toe#readme"
+}
